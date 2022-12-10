@@ -1,0 +1,30 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PixelFont";
+  src: url("/fonts/Pixeboy.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+.pixel {
+  font-family: PixelFont;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 960px;
+  min-height: 100vh;
+}
