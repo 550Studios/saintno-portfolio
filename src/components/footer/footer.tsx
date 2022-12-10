@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
-    <footer class="w-full dark:bg-zinc-900 bg-zinc-50 flex dark:text-white px-10 py-4 font-thin text-sm">
+    <footer class="w-full dark:bg-zinc-900 bg-zinc-50 flex dark:text-white px-10 py-4 font-thin text-sm snap-start">
       <div class="flex-auto flex gap-2">
         <span>
           <strong>@Saintno</strong> 2022, Made with Qwik

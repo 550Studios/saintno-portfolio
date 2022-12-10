@@ -5,7 +5,6 @@ import {
   useContextProvider,
   useStore,
 } from "@builder.io/qwik";
-import Footer from "~/components/footer/footer";
 import Header from "../components/header/header";
 
 export type TAppState = { dark: boolean };
@@ -26,7 +25,6 @@ export default component$(() => {
             </section>
           </main>
         </div>
-        <Footer />
       </div>
     </div>
   );

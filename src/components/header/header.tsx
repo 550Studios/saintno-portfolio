@@ -7,7 +7,7 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <header class="py-4 px-8 dark:text-white absolute top-0 w-full">
+    <header class="py-4 px-8 dark:text-white fixed top-0 w-full">
       <ul class="flex flex-row justify-end gap-8">
         <li>
           <a

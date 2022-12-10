@@ -25,6 +25,9 @@ body {
 }
 
 main {
-  max-width: 960px;
   min-height: 100vh;
+}
+
+.content-container > div {
+  max-width: 960px;
 }
